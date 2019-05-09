@@ -1,12 +1,16 @@
 ## Chat app (React, Socket)
 
-In the project directory, you can run:
+In the project directory, you can run first:
+
+### `npm install`
+
+to install dependencies, and
 
 ### `node index.js`
 
-To run node server on [http://localhost:5000](http://localhost:5000) to view it in the browser.
+to run node server on [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
-and
+Then:
 
 ### `npm start`
 
