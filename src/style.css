@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.AppHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffa500;
+  color: #fff;
+  font-size: 2rem;
+  width: 100%;
+  padding: 20px;
+}
+
+.AppBody {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.MessageWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  flex: 1;
+}
+
+.MessageForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.MessageInput {
+  flex: 1;
+  padding: 20px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.MessageList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.UserForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.UserInput {
+  padding: 20px;
+  font-size: 2em;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  width: 510px;
+}
+
+.Users {
+  min-width: 25vw;
+}
+
+.UsersList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.UsersOnline {
+  text-align: center;
+  padding: 5px;
+}
+
+.UserItem {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.UserItem:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.Message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.Message:nth-child(odd) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.MessageText {
+  border: 2px solid #ff7b00;
+  border-radius: 5px;
+  padding: 30px;
+  width: 50%;
+  background-color: #fff;
+}
+
+.Message:nth-child(odd) .MessageText{
+  background-color: #eeeeee;
+}
+
+.MessageHeader {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: brown;
+}
